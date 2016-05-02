@@ -57,7 +57,7 @@
                           <a ng-hide="utils.alreadyVoted(message.$id)" href="javascript:void(0)" ng-click="toggleVote(message.$id, message.votes)">
                               <i class="fa fa-thumbs-o-up"></i>
                           </a>
-                          <strong><a ng-show="utils.alreadyVoted(message.$id)" href="javascript:void(0)" ng-click="toggleVote(message.$id, message.votes)"><i class="fa fa-thumbs-o-down"></i> </a>+ {{ message.votes }}</strong>
+                          <strong><a ng-show="utils.alreadyVoted(message.$id)" href="javascript:void(0)" ng-click="toggleVote(message.$id, message.votes)"><i class="fa fa-thumbs-up"></i> </a>+ {{ message.votes }}</strong>
                       </div>
                   </div>
                   <div class="back">
